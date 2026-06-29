@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design System UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Biblioteca de Componentes UI</h1>
+        <p>Sistema de Gestión de Incidentes</p>
+
+        <section>
+            <h2>Botones</h2>
+            <button class="btn-primary">Guardar</button>
+            <button class="btn-secondary">Cancelar</button>
+            <button class="btn-warning">Pendiente</button>
+        </section>
+
+        <section>
+            <h2>Formulario</h2>
+            <form class="form-box">
+                <label>Nombre</label>
+                <input type="text" placeholder="Ingrese su nombre">
+
+                <label>Correo</label>
+                <input type="email" placeholder="Ingrese su correo">
+            </form>
+        </section>
+
+        <section>
+            <h2>Tarjetas</h2>
+
+            <div class="card">
+                <h3>🚨 Incidente #105</h3>
+                <p>Falla detectada en módulo de autenticación.</p>
+                <span class="badge">Crítico</span>
+            </div>
+
+            <div class="card">
+                <h3>⚠️ Incidente #106</h3>
+                <p>Error detectado en servidor de base de datos.</p>
+                <span class="badge warning">Medio</span>
+            </div>
+        </section>
+
+        <section>
+            <h2>Alertas</h2>
+            <div class="alert-success">✔ Proceso realizado correctamente.</div>
+            <div class="alert-error">✖ Error en la operación.</div>
+        </section>
+    </div>
+
+</body>
+</html>
